@@ -454,6 +454,9 @@ vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
+# Payment Apps
+vendor/app/MipayService/MipayService.apk
+
 # Power
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
@@ -548,8 +551,10 @@ vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.
 vendor/lib64/libhfmanager.so
 vendor/lib64/libksensor.so
 
+# Soter key - from plato OS2.0.2.0.VLQMIXM
+vendor/app/SoterService/SoterService.apk|b3c24086a6450c22ca5d5b82ac3827731ca81fbc
+
 # Soter
-vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/etc/vintf/manifest/manifest_wechat.xml
