@@ -139,7 +139,7 @@
 /system/bin/disp_feature u:object_r:xiaomi_display_exec:s0
 
 # Ir
-/dev/ir_spi                                                               u:object_r:ir_device:s0
+/dev/ir_spi                                                               u:object_r:lirc_device:s0
 
 # Mfidoca
 /vendor/bin/fidoca_isee                                                   u:object_r:hal_mfidoca_default_exec:s0
