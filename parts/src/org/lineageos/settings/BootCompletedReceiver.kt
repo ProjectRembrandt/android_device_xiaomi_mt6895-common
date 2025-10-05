@@ -13,7 +13,7 @@ import android.util.Log
 import org.lineageos.settings.thermal.ThermalUtils
 
 /** Everything begins at boot. */
-class BootCompletedReceiverMain : BroadcastReceiver() {
+class BootCompletedReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {
         Log.d(TAG, "Received intent: ${intent.action}")
