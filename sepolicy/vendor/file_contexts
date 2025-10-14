@@ -136,6 +136,7 @@
 
 # Graphics
 /dev/mi_display/disp_feature                                              u:object_r:vendor_displayfeature_device:s0
+/system/bin/disp_feature u:object_r:xiaomi_display_exec:s0
 
 # Ir
 /dev/ir_spi                                                               u:object_r:lirc_device:s0
