@@ -197,10 +197,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 PRODUCT_OTHER_JAVA_DEBUG_INFO := false
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePkgs
-
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6895 \
